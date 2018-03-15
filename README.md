@@ -13,3 +13,5 @@ Originally, I created a portfolio page for the FreeCodeCamp curriculum on codepe
 - [ ] Add thumbnails to images folder
 - [ ] Really need a better background
 - [ ] Clean up CSS for new design (anything no longer needed?)
+- [ ] Clean up bootstrap classes from HTML
+- [ ] Figure out how to not require github password for every push...
