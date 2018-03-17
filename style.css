@@ -2,12 +2,6 @@
 	padding-top: 15px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 hr {
 	width: 95%;
 	color: #A9A9A9;
@@ -86,7 +80,7 @@ Social Media buttons from http://www.kodingmadesimple.com/2014/11/create-stylish
 	font-size: 33px;
 	background-color: #909AA0;
 	text-align: center;
-/*	padding-top: 18.5px; */
+	padding-top: 18.5px;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
