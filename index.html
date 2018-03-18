@@ -8,23 +8,21 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="stylesheet" type="text/css" href="nav-style.css" />
 
-	<!-- No JS needed
-	<script src="#"></script>
-	 -->
+	<script src="script.js"></script>
+
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body data-spy="scroll" data-target=".topnav" data-offset="40">
-	<nav class="topnav">
-		<ul class="nav">
-			<li><a href="#about">About</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
+	<nav class="topnav" id="topnav">
+		<a href="#about">About</a>
+		<a href="#portfolio">Portfolio</a>
+		<a href="#contact">Contact</a>
+		<a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
 	</nav>
 
-	<div class="container-fluid">
+	<div class="container" id="main">
 		<div class="container page" id="about">
 			<h1>Creighton Magoun</h1>
 			<p>Aspiring web developer with professional experience in Microsoft Excel and VBA. Comitted to life-long learning and self-actualization. Enjoys cooking, personal finance and racquetball.</p>
@@ -35,7 +33,6 @@
 
 			<!-- Insert social media links -->
 			<div class="social">
-
 				<!-- Facebook -->
 				<a href="https://www.facebook.com/magoun" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
 
